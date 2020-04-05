@@ -35,8 +35,7 @@ int main(void)
             change %= 1;
         }
     }
-    printf("change: %i\n", change);
-    printf("coins: %i\n", coins);
+    printf("%i", coins);
 }
 
 // get a positive float from the user
