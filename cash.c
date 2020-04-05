@@ -14,17 +14,17 @@ int main(void)
 
     while (change > 0)
     {
-        if (change > 25)
+        if (change >= 25)
         {
             coins += change / 25;
             change %= 25;
         }
-        else if (change > 10)
+        else if (change >= 10)
         {
             coins += change / 10;
             change %= 10;
         }
-        else if (change > 5)
+        else if (change >= 5)
         {
             coins += change / 5;
             change %= 5;
@@ -35,7 +35,7 @@ int main(void)
             change %= 1;
         }
     }
-    printf("%i", coins);
+    printf("%i\n", coins);
 }
 
 // get a positive float from the user
