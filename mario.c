@@ -21,7 +21,7 @@ int main(void)
             printf(" ");
         }
 
-        // j = number of hashes
+        // j = number of hashes on left pyramid
         for (int j = 0; j < i; j++) // j = 0
         {
             printf("#");
@@ -29,7 +29,7 @@ int main(void)
 
         printf("  "); // the spaces b/w the half-pyramids
         
-        // j = number of hashes
+        // j = number of hashes on right pyramid
         for (int j = 0; j < i; j++) // j = 0
         {
             printf("#");
